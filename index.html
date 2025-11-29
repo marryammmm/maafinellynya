@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maafin Ellyn Ya Hansi?</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Particles Background -->
+    <div class="particles-container" id="particles"></div>
+    
+    <!-- Main Container -->
+    <div class="main-wrapper">
+        <div class="container">
+            <!-- Image Container -->
+            <div class="animation-container">
+                <div class="image-glow"></div>
+                <img src="crying-girl.png" 
+                     alt="Crying Girl" 
+                     class="crying-animation">
+            </div>
+            
+            <!-- Apology Text -->
+            <div class="text-container">
+                <h1 class="apology-text">Maafin Ellyn yaa Hansi ku sayang?</h1>
+                <p class="subtitle">Ellyn benar benar sudah menyesal udah buat hansi sayang jadi sedih  </p>  
+                <p class="subtitle">(っ╥﹏╥ς) </p>
+            </div>
+            
+            <!-- Button Container -->
+            <div class="button-wrapper">
+                <button id="yesBtn" class="btn btn-yes">
+                    <span>Iyaa sayangku</span>
+                </button>
+                <button id="noBtn" class="btn btn-no">
+                    <span>Ndaakk (¬`‸´¬)</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Pop-up -->
+    <div id="modal" class="modal">
+        <div class="modal-overlay"></div>
+        <div class="modal-content">
+            <div class="modal-header">
+                <div class="check-circle">
+                    <svg viewBox="0 0 24 24" fill="currentColor" stroke="none">
+                        <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+                    </svg>
+                </div>
+            </div>
+            <h2 class="modal-title"> Timakaci banyak yaa hansi ku tersayang... </h2>
+            <p class="modal-text">
+                Makasih banyak sudah maafin dan memberikan Ellyn kesempatan yaaa?
+                <br><br>
+                Huhuhu... Ellyn akan selalu berusaha menjadi pacar yang baik untuk kamu...
+                <br><br>
+                <span class="modal-promise">I lowve ywou so much, Hansi ku!</span>
+            </p>
+            <button class="modal-close" id="modalClose">
+                <span> Sinii peluk (੭˃ᴗ˂)੭  </span>
+            </button>
+        </div>
+    </div>
+
+    <!-- Hug GIF Modal -->
+    <div id="hugModal" class="modal hug-modal">
+        <div class="modal-overlay"></div>
+        <div class="hug-content">
+            <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMWV0Y3NpdW1zcGtkZXVwd25yczNxdzRmY3M2dzdvcWsxbTJvcWI4dSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ytTylBw1jRfMYTHwV7/giphy.gif" 
+                 alt="Hug Animation" 
+                 class="hug-gif">
+            <p class="hug-text">Love you, Hansi kuuu</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
